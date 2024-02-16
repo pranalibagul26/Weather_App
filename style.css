@@ -1,0 +1,63 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.mdiv{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	background-image: url("image2.gif");
+	background-size: cover;
+}
+.container{
+	height: 500px;
+	width: 400px;
+	box-shadow: 0px 0px 20px black;
+	border-radius: 30px;
+	padding: 20px;
+	margin-top: 60px;
+	background-color: transparent;
+	backdrop-filter: blur(10px);
+/*	background-image: url("image1.jpg");*/
+/*	background-size: cover;*/
+}
+.srch_btn{
+	border: none;
+	background-color: transparent;
+	padding-top: 40px;
+	cursor: pointer;
+	margin-left: 10px;
+
+}
+.component{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 60px;
+	height: 20px;
+	margin-top: 20px;
+}
+.headings{
+	margin-top: 100px;
+	font-size: 20px;
+}
+.heading{
+/*	margin-top: 500px;*/
+	font-size: 20px;
+
+}
+
+input{
+	width: 280px;
+	height: 30px;
+	margin-left: -20px;
+	margin-top: 40px;
+	background-color: transparent;
+
+}
